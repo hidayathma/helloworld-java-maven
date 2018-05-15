@@ -40,12 +40,12 @@
   
 <distributionManagement>
     <repository>
-        <id>cog-release</id>
+        <id>cts-nexus</id>
         <name>cog-release</name>
         <url>http://ec2-13-232-21-125.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/cts-release/</url>
     </repository>
     <snapshotRepository>
-        <id>cog-snapshot</id>
+        <id>cts-nexus</id>
         <name>cog-snapshot</name>
         <url>http://ec2-13-232-21-125.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/cts-snapshot/</url>
     </snapshotRepository>

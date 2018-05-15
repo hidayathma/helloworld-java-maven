@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.scmgalaxy.mavensample</groupId>
+  <groupId>com.hidayath.mavensample</groupId>
   <artifactId>my-maven</artifactId>
   <packaging>jar</packaging>
   <version>2.0.0</version>
@@ -41,12 +41,12 @@
 <distributionManagement>
     <repository>
         <id>cog-release</id>
-        <name>bd7e4d6b271d-releases</name>
+        <name>cog-release</name>
         <url>http://ec2-13-232-21-125.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/cts-release/</url>
     </repository>
     <snapshotRepository>
         <id>cog-snapshot</id>
-        <name>bd7e4d6b271d-snapshots</name>
+        <name>cog-snapshot</name>
         <url>http://ec2-13-232-21-125.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/cts-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
